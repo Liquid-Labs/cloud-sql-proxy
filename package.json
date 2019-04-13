@@ -1,0 +1,25 @@
+{
+  "name": "@liquid-labs/cloud-sql-proxy",
+  "version": "1.0.0-alpha.0",
+  "description": "Installs Google's 'cloud_sql_proxy' via npm package.",
+  "scripts": {
+    "preinstall": "./build.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "build.sh"
+  ],
+  "bin": {
+    "cloud_sql_proxy": "./cloud_sql_proxy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liquid-Labs/cloud-sql-proxy.git"
+  },
+  "author": "Zane Rockenbaugh <zane@liquid-labs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liquid-Labs/cloud-sql-proxy/issues"
+  },
+  "homepage": "https://github.com/Liquid-Labs/cloud-sql-proxy#readme"
+}
